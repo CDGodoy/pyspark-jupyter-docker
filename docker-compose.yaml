@@ -1,8 +1,0 @@
-version: "3"
-services:
-  pyspark:
-    image: "jupyter/all-spark-notebook"
-    volumes:
-      - ./spark_jupyter:/code
-    ports:
-      - 8888:8888
